@@ -1,10 +1,10 @@
 # machine_learning_SuperResolution
-##Supervised Image super-resolution and denoising
+## Supervised Image super-resolution and denoising
 
-###Training Data
+### Training Data
 The training data consists of pairs of (simulated) low-dose and high dose chest x-ray images.
 
-###Basic Methods
+### Basic Methods
 A very deep convolution neural net is used for this project.
 
 It includes 18 convoluted layers (with RELU activations and 64 layers of feature extractions) and at the end we merge the output with the input image. For preprocessing, we expanded the 64x64 image to 128x128 using LANCZOS interpolation, after that we divided the image into 16 32x32 sub-images.
